@@ -1,0 +1,5 @@
+<launch>
+    <node name="circle" pkg="autopilot" type="new_circle.py" output="screen">
+    </node>
+</launch>
+
