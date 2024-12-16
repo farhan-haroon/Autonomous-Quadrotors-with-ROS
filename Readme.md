@@ -4,7 +4,7 @@ In this repository, I present the required methodology and code to implement a t
 
 The Quadrotor is connected with the comapnion PC via the **SiK Radio 433 MHz Telemetry v2** module with it's **AirRate** setting set to the maximum value [refer to this](https://ardupilot.org/copter/docs/common-sik-telemetry-radio.html). This alows tranmitting pose data from companion PC over to the FCU with least latency. 
 
-## Pose data tranmission
+## Pose data transmission
 
 The Quadrotor pose data from the OptiTrack system can be relayed to the companion PC running ROS-Noetic on Linux through an ehternet connection to the Windows PC running [Motive](https://optitrack.com/software/motive/) software. The Motive software supports various trnamission protocols like **NatNet SDK** or the [VRPN](http://wiki.ros.org/vrpn_client_ros) package. But before that, make sure that the Quadrotor is configured properly to recieve pose data from OptiTrack over **MAVLINK** by following [these](https://ardupilot.org/copter/docs/common-optitrack.html) steps.
 
