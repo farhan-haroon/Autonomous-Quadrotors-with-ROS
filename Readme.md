@@ -1,4 +1,4 @@
-> ![NOTE]
+> [!NOTE]
 > Change the name of the package from **Autonomous-Quadrotors-with-ROS** to **autopilot** if you want to run the commands off the shelf.
 
 # Autonomous Quadrotors with ROS
