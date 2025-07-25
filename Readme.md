@@ -1,3 +1,6 @@
+> ![NOTE]
+> Change the name of the package from **Autonomous-Quadrotors-with-ROS** to **autopilot** if you want to run the commands off the shelf.
+
 # Autonomous Quadrotors with ROS
 
 In this repository, I present the required methodology and code to implement a teleoperation task on an ArduPilot based Quadrotor. The Quadrotor is flying indoors localising using the **OptiTrack** motion capture system by tracking a group of infra-red reflective markers placed asymmetrically on the UAV. 
